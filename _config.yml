@@ -1,0 +1,23 @@
+#
+# Jekyll configuration
+#
+auto: true
+permalink: /:title
+pygments: true
+lsi: true
+markdown: rdiscount
+rdiscount
+  extensions: [smart]
+
+#
+# Site configuration
+#
+base_url: http://example.com
+url: http://example.com
+title: "le titre de votre site"
+description: "La meta description sur la page d'accueil de votre site"
+author: "Votre nom"
+
+# Category settings
+category_dir: c
+category_title_prefix: "Categorie : "

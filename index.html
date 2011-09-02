@@ -1,0 +1,19 @@
+---
+layout: layout
+---
+
+{% for post in site.posts limit:10 %}
+
+	<article class="homelist">
+		<h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+		
+		{{ post.content | truncatewords: 50 | textilize }}
+		
+		<aside class="seemore">
+			<time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%d %m %Y" }}</time>, {{ post.categories | category_links }} | 
+			<a rel="nofollow" href="{{ post.url }}">Lire la suite &raquo;</a>
+		</aside>
+	
+	</article>
+
+{% endfor %}
