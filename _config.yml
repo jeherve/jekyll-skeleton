@@ -17,7 +17,6 @@ url: http://example.com
 title: "le titre de votre site"
 description: "La meta description sur la page d'accueil de votre site"
 author: "Votre nom"
-
-# Category settings
-category_dir: c
-category_title_prefix: "Categorie : "
+email: "votre-email@example.com"
+gauaid: "UA-XXXXXXX-X" # Votre numéro de tracking Google Analytics
+disqusid: "http://xxx.disqus.com" # Votre identifiant Disqus, de la forme http://xxx.disqus.com
