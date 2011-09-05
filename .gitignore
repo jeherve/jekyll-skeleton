@@ -4,4 +4,7 @@
 # Pour votre dossier de brouillons
 _drafts
 
+# Pour votre site généré en local
+_site
+
 
