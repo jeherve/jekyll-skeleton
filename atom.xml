@@ -10,7 +10,7 @@ layout: nil
  <updated>{{ site.time | date_to_xmlschema }}</updated>
  <id>{{ site.url }}</id>
  <author>
-   <name>{{ site.name }}</name>
+   <name>{{ site.author }}</name>
    <email>{{ site.email }}</email>
  </author>
 
