@@ -12,11 +12,11 @@ rdiscount
 #
 # Site configuration
 #
-base_url: http://example.com
-url: http://example.com
-title: "le titre de votre site"
-description: "La meta description sur la page d'accueil de votre site"
-author: "Votre nom"
-email: "votre-email@example.com"
-gauaid: "UA-XXXXXXX-X" # Votre numéro de tracking Google Analytics
-disqusid: "http://xxx.disqus.com" # Votre identifiant Disqus, de la forme http://xxx.disqus.com
+base_url: http://jeherve.github.com/jekyll-skeleton # L'URL de votre site
+url: http://jeherve.github.com/jekyll-skeleton # L'URL de votre site
+title: "Jekyll Skeleton" # Titre de votre site
+description: "Thème gratuit pour le générateur de site Jekyll" # La meta description sur la page d'accueil de votre site
+author: "Jeremy Herve" # Votre nom
+email: "jeremy@tagada.hu" # Votre email
+gauaid: "UA-1697171-11" # Votre numéro de tracking Google Analytics
+disqusshortname: "jekyllskeleton" # Votre Shortname Disqus
