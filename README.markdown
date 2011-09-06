@@ -17,6 +17,10 @@ Ce thème est basé sur mes propres expériences avec [mon blog](http://jeremy.t
 
 *syntax.css* contient des styles par défaut pour pygments. Kudos [@richleland](https://github.com/richleland/pygments-css) pour ce travail !
 
+### Police 
+
+Le titre du site utilise la police [Ostrich Sans](http://www.theleagueofmoveabletype.com/fonts/18-ostrich-sans), by [Tyler Finck](http://www.sursly.com/).
+
 ### Importation de vos articles
 
 Pour importer vos articles, vous pouvez utiliser [ce Gist](https://gist.github.com/500506)
