@@ -1,7 +1,27 @@
-/*	Less Framework 4
+/*
+Jekyll Skeleton
+A theme for your Jekyll blog
+http://jeremy.tagada.hu/
+by Jeremy Herve
+License: http://opensource.org/licenses/mit-license.php
+
+CSS built with
+	Less Framework 4
 	http://lessframework.com
 	by Joni Korpi
-	License: http://opensource.org/licenses/mit-license.php	*/
+	License: http://opensource.org/licenses/mit-license.php
+*/
+
+/* Color base
+	---------
+
+White: #F1E9E5
+Black: #181511
+Skin:  #F5C4B7
+Pale:  #D0907B
+Red:   #BF1B21
+
+*/
 
 
 /*	Resets
@@ -26,10 +46,21 @@ footer, header, nav, section, audio, video {
 
 a img {border: 0;}
 
+ul, ol {
+	padding-left: 35px;
+	margin: 5px 0;
+}
 
 
 /*	Typography presets
 	------------------	*/
+	
+@font-face {
+    font-family: 'OstrichSansBold';
+    src: url('ostrich-bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
 
 .gigantic {
 	font-size: 110px;
@@ -38,34 +69,31 @@ a img {border: 0;}
 }
 
 h1, h2, h3 {
-	color: #3e3d3b;
+	color: #181511;
 	text-decoration: none;
-}
-
-h1:hover, h2:hover, h3:hover {
-	color: #e5e5e5;
-	text-decoration: underline;
 }
 
 .huge, h1 {
 	font-size: 30px;
 	line-height: 32px;
 	letter-spacing: -1px;
+	margin-bottom: 20px;
 }
 
 .large, h2 {
-	font-size: 28px;
-	line-height: 30px;
+	font-size: 26px;
+	line-height: 28px;
+	margin-bottom: 10px;
 }
 
 .bigger, h3 {
-	font-size: 26px;
-	line-height: 36px;
+	font-size: 22px;
+	line-height: 32px;
 }
 
 .big, h4 {
-	font-size: 22px;
-	line-height: 30px;
+	font-size: 18px;
+	line-height: 26px;
 }
 
 body {
@@ -78,13 +106,12 @@ body {
 }
 
 a {
-	color: #3e3d3b;
+	color: #181511;
 	text-decoration: none;
 }
 
 a:hover {
-	color: #e5e5e5;
-	text-decoration: underline;
+	color: #D0907B;
 }
 
 /* Selection colours (easy to forget) */
@@ -114,24 +141,87 @@ body {
 }
 
 .container {
-	background: #fff;
+	background: #ffffff;
 	-moz-border-radius: 6px;
 	border-radius: 6px;
 	-webkit-border-radius: 6px;
 	border: 1px solid #666;
-	margin-top: 20px;
-	padding: 20px 48px 84px;
+	margin: 20px 0;
+	padding: 20px 48px 20px;
 }
 
 header, section {
 	padding-bottom: 10px;
 	margin-bottom: 20px;
-	border-bottom: 1px solid #666;
-	box-shadow: 0 1px 0 #FFFFFF;
 }
+
+/* Header */
+
+header {
+	border-bottom: 1px solid #ECEDF3;
+}
+
+.site_title {
+	font-family: "OstrichSansBold";
+	font-size: 130px;
+	line-height: 140px;
+}
+
+/* Homepage */
 
 .homelist {
 	padding: 15px 0;
+	border-bottom: 1px solid #ECEDF3;
+}
+
+.seemore {
+	margin: 0;
+	padding: 0;
+	background: none;
+}
+
+/* Articles */
+
+aside {
+	margin: 20px 0;
+	padding: 10px;
+	background: #F5C4B7;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	-webkit-border-radius: 6px;
+}
+
+blockquote {
+	margin: 10px 0;
+	padding: 10px 20px;
+	font-style: italic;
+	font-size: 20px;
+	border-left: 3px solid #ECEDF3;
+}
+
+.post_nav {
+	margin: 15px 0;
+	height: 25px;
+}
+
+.post_nav  .next {
+	float: right;
+}
+
+.post_nav  .previous {
+	float: left;
+}
+
+.related {
+	font-size: 20px;
+	line-height: 20px;
+}
+
+/* Footer */
+
+footer {
+	border-top: 1px solid #ECEDF3;
+	padding-top: 10px;
 }
 
 
@@ -153,6 +243,12 @@ px      68    160    252    344    436    528    620    712    */
 	.container {
 		padding: 48px 28px 60px;
 	}
+	
+	.site_title {
+		font-size: 100px;
+		line-height: 80px;
+	}
+
 }
 
 
@@ -175,6 +271,11 @@ px      68    160    252    */
 		padding: 48px 34px 60px;
 	}
 	
+	.site_title {
+		font-size: 60px;
+		line-height: 60px;
+	}
+	
 }
 
 
@@ -195,6 +296,11 @@ px      68    160    252    344    436    */
 	
 	.container {
 		padding: 36px 22px 48px;
+	}
+	
+	.site_title {
+		font-size: 60px;
+		line-height: 40px;
 	}
 	
 }

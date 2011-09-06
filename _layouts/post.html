@@ -10,7 +10,7 @@ layout: layout
 	
 	<aside>
 	
-		<time class="time" datetime="{{ post.date | date: "%d %b %Y" }}">&mdash;{{ page.date | date: "%d %b %Y" }}</time>
+		Publi&eacute; le <time class="time" datetime="{{ post.date | date: "%d %b %Y" }}">{{ page.date | date: "%d %b %Y" }}</time>
 		
 		
 		<div class="post_nav">
@@ -25,7 +25,7 @@ layout: layout
 		
 		<h2 class="related">Vous aimerez peut-&ecirc;tre aussi :</h2>
 			<ul class="posts">
-			{% for post in site.related_posts limit:4 %}
+			{% for post in site.related_posts limit:5 %}
 				<li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
 			{% endfor %}
 			</ul>
@@ -38,12 +38,12 @@ layout: layout
 
 	<div id="disqus_thread"></div>
 	<script type="text/javascript">
-	var disqus_url = '{{ post.url }}/';
+	var disqus_url = '{{ site.url }}{{ page.url }}/';
 	var disqus_title = '{{ page.title | replace:"'","\\'" }}';
 	    var disqus_developer = 1;
 	    (function() {
 	        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-	        dsq.src = '{{ site.disqusid }}/embed.js';
+	        dsq.src = 'http://{{ site.disqusshortname }}.disqus.com/embed.js';
 	        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
 	    })();
 	</script>
