@@ -16,7 +16,7 @@
 	<link rel="stylesheet" type="text/css" media="all" href="/css/syntax.css" />
 	<link rel="stylesheet" type="text/css" media="all" href="/css/style.css" />
 	
-	<link rel="canonical" href="{{ site.url }}{{ page.url }}" />
+	<link rel="canonical" href="{{ site.url }}{% if page.title %}{{ page.url }}{% endif %}" />
 	{% if page.previous.url %}
 	<link rel="prev" title="{{ page.previous.title }}" href="{{ site.url }}{{ page.previous.url }}" />
 	{% endif %}
