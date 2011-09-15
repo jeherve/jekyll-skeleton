@@ -16,9 +16,17 @@
 	<link rel="stylesheet" type="text/css" media="all" href="/css/syntax.css" />
 	<link rel="stylesheet" type="text/css" media="all" href="/css/style.css" />
 	
+	<link rel="canonical" href="{% if page.url %}{{ page.url }}{% endif %}{% if site.url %}{{ site.url }}{% endif %}" />
+	{% if page.previous.url %}
+	<link rel="prev" title="{{ page.previous.title }}" href="{{ page.previous.url }}" />
+	{% endif %}
+	{% if page.next.url %}
+	<link rel="next" title="{{ page.next.title }}" href="{{ page.next.url }}" />
+	{% endif %}
+	
 	<!--[if lt IE 9]>
 	<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
-	<![endif]-->
+	<![endif]-->	
 </head>
 <body>
 <div class="container">
