@@ -281,6 +281,10 @@ px      68    160    252    */
 		line-height: 60px;
 	}
 	
+	.ribbon {
+		display: none;
+	}
+	
 }
 
 
@@ -306,6 +310,10 @@ px      68    160    252    344    436    */
 	.site_title {
 		font-size: 60px;
 		line-height: 40px;
+	}
+	
+	.ribbon {
+		display: none;
 	}
 	
 }
