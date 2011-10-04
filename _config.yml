@@ -18,5 +18,6 @@ title: "Jekyll Skeleton" # Titre de votre site
 description: "Thème gratuit pour le générateur de site Jekyll" # La meta description sur la page d'accueil de votre site
 author: "Jeremy Herve" # Votre nom
 email: "jeremy@tagada.hu" # Votre email
+rss_feed: "/atom.xml" # If you are using Feedburner, enter your feedburner address here.
 gauaid: "UA-1697171-11" # Votre numéro de tracking Google Analytics
 disqusshortname: "jekyllskeleton" # Votre Shortname Disqus
