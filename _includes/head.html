@@ -1,0 +1,28 @@
+<meta charset="utf-8" />
+<meta name="author" content="{{ site.author }}" />
+ 
+<title>{% if page.title %} {{ page.title }} | {% endif %} {{ site.title }}</title>
+<meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}" />
+
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+<link rel="shortcut icon" href="{{ site.url }}/images/favicon.ico" type="image/x-icon" />
+<link rel="profile" href="http://gmpg.org/xfn/11" />
+<link href="{{ site.rss_feed }}" rel="alternate" title="{{ site.title }}" type="application/atom+xml" />
+
+<link rel="stylesheet" type="text/css" media="all" href="/css/syntax.css" />
+<link rel="stylesheet" type="text/css" media="all" href="/css/style.css" />
+
+<link rel="canonical" href="{{ site.url }}{% if page.title %}{{ page.url }}{% endif %}" />
+{% if page.previous.url %}
+<link rel="prev" title="{{ page.previous.title }}" href="{{ site.url }}{{ page.previous.url }}" />
+{% endif %}
+{% if page.next.url %}
+<link rel="next" title="{{ page.next.title }}" href="{{ site.url }}{{ page.next.url }}" />
+{% endif %}
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+
+<!--[if lt IE 9]>
+<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
