@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Trisième article test"
+title: "Troisième article test"
 description: "Description de cet article test"
 categories: Jekyll
 tags:
@@ -14,6 +14,10 @@ Un article écrit en Markdown. Lorem ipsum dolor sit amet, consectetur adipisici
 ## Titre H2
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dolor sem, vehicula vitae commodo eu, posuere pulvinar ligula. Vivamus rhoncus, metus non rhoncus iaculis, tortor mi iaculis nulla, in molestie sapien lectus ut quam. Donec volutpat condimentum libero, sed commodo libero ultricies quis. Suspendisse et elit a augue auctor suscipit. Praesent aliquet sapien eu lorem imperdiet ut consectetur eros condimentum. Curabitur non metus viverra nibh volutpat molestie a a nulla. Sed sed odio ut arcu suscipit pellentesque. Aenean lacinia, tellus facilisis rhoncus auctor, massa massa facilisis ipsum, ac convallis neque diam in urna. Mauris cursus posuere orci a pulvinar. Proin ipsum augue, bibendum sit amet cursus a, bibendum sed massa.
+
+Et une vidéo pour prouver que le resize fonctionne correctement :
+
+<iframe width="640" height="480" src="http://www.youtube.com/embed/PuA6ZjpEJys?rel=0" frameborder="0" allowfullscreen></iframe>
 
 Aenean in est vitae lacus rhoncus vehicula. Nulla imperdiet fermentum gravida. Etiam luctus molestie egestas. Duis id mi erat. Nunc laoreet libero eleifend ante lobortis at tristique arcu consectetur. Aenean ultricies, lorem non rutrum suscipit, metus ipsum tincidunt mi, mattis semper magna enim sit amet purus. Sed ultricies sodales erat, sit amet fermentum elit congue ac. Donec dignissim lobortis feugiat.
 
