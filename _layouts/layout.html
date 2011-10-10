@@ -24,6 +24,7 @@
 	<link rel="next" title="{{ page.next.title }}" href="{{ site.url }}{{ page.next.url }}" />
 	{% endif %}
 	
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
 	<!--[if lt IE 9]>
 	<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->	
@@ -51,7 +52,13 @@
 
 </div>
 	
-	<script type="text/javascript" src="/js/optim.js"></script>
+	<script type="text/javascript" src="/js/fitvids.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+    		$("body").fitVids();
+  		});
+	</script>
+	
 	{% if site.gauaid != empty %}
 	<script type="text/javascript">
 		var _gaq = _gaq || [];
