@@ -12,8 +12,8 @@ rdiscount
 #
 # Site configuration
 #
-base_url: http://skeleton.tagada.hu	# L'URL de votre site
-url: http://skeleton.tagada.hu	# L'URL de votre site
+base_url: "http://skeleton.tagada.hu"	# L'URL de votre site
+url: "http://skeleton.tagada.hu"	# L'URL de votre site
 title: "Jekyll Skeleton"	# Titre de votre site
 description: "Thème gratuit pour le générateur de site Jekyll"	# La meta description sur la page d'accueil de votre site
 author: "Jeremy Herve"	# Votre nom
