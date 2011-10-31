@@ -269,11 +269,15 @@ px      68    160    252    */
 @media only screen and (max-width: 767px) {
 	
 	body {
-		width: 252px;
+		width: 320px;
 	}
 	
 	.container {
 		padding: 48px 34px 60px;
+		margin: 0;
+		-moz-border-radius: 0;
+		border-radius: 0;
+		-webkit-border-radius: 0;
 	}
 	
 	.site_title {
@@ -300,11 +304,15 @@ px      68    160    252    344    436    */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
 	
 	body {
-		width: 436px;
+		width: 480px;
 	}
 	
 	.container {
 		padding: 36px 22px 48px;
+		margin: 0;
+		-moz-border-radius: 0;
+		border-radius: 0;
+		-webkit-border-radius: 0;
 	}
 	
 	.site_title {
