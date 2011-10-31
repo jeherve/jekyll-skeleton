@@ -11,6 +11,10 @@ Ce thème est basé sur mes propres expériences avec [mon blog](http://jeremy.t
 
 ## Kudos et liens utiles
 
+### Commentaires
+
+Ce thème peut utiliser Disqus ou Facebook comments pour les commentaires. A vous de choisir dans les options de *_config.yml*
+
 ### CSS
 
 *style.css* utilise [Less framework](http://lessframework.com/) comme base. Ce design s'adapte donc parfaitement à toutes les tailles de navigateur !

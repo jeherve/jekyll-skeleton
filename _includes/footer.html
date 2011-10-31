@@ -19,3 +19,24 @@
 	})();
 </script>
 {% endif %}
+
+{% if site.fb_appid != empty %}
+<div id="fb-root"></div>
+<script type="text/javascript">
+	window.fbAsyncInit = function() {
+		FB.init({
+			appId:'{{ site.fb_appid }}', 
+			cookie:true,
+			status:true,
+			xfbml:true,
+			oauth:true
+		});
+	};
+	(function() {
+		var e = document.createElement('script');
+		e.src = document.location.protocol + '//connect.facebook.net/fr_FR/all.js';
+		e.async = true;
+		document.getElementById('fb-root').appendChild(e);
+	}());
+</script>
+{% endif %}
