@@ -28,3 +28,12 @@ gauaid: "UA-1697171-11"	# Votre numéro de tracking Google Analytics
 disqusshortname: "jekyllskeleton"	# Votre Shortname Disqus
 fb_appid: ""	# Votre ID d'application Facebook
 fb_comments: ""	# true pour activer les commentaires Facebook
+
+
+#
+# Socialize
+#
+socialize: "true"
+socialize_twitter: "jeherve" # Votre username Twitter
+socialize_googleplus: "104738574928055931236" # Votre ID Google+
+socialize_github: "jeherve" # Votre username GitHub

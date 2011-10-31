@@ -18,6 +18,10 @@
 		{{ content }}
 	</section>
 	
+	{% if site.socialize %}
+		{% include social.html %}	
+	{% endif %}
+	
 	<footer>
 		<p>&copy; 2011 <a href="/">{{ site.title }}</a></p>
 	</footer>

@@ -1,0 +1,17 @@
+<section class="socialize">
+	{% if site.socialize_twitter %}
+	<span class="ftwitter">
+		<a href="http://twitter.com/{{ site.socialize_twitter }}/">Suivez moi sur Twitter !</a>
+	</span>
+	{% endif %}
+	{% if site.socialize_googleplus %}
+	<span class="fgoogleplus">
+		<a href="https://plus.google.com/{{ site.socialize_googleplus }}/about">Cerclez-moi sur Google+</a>
+	</span>
+	{% endif %}
+	{% if site.socialize_github %}
+	<span class="fgithub">
+		<a href="https://github.com/{{ site.socialize_github }}/">Suivez mes projets sur GitHub</a>
+	</span>
+	{% endif %}
+</section>
