@@ -10,7 +10,7 @@ layout: layout
 	
 	<aside>
 	
-		Publi&eacute; le <data class="time" itemprop="datePublished" value="{{ post.date | date: "%d %b %Y" }}">{{ page.date | date: "%d %b %Y" }}</data>
+		Publi&eacute; le <time class="time" pubdate datetime="{{ post.date | date: "%d %b %Y" }}">{{ page.date | date: "%d %b %Y" }}</time>
 		
 		
 		<div class="post_nav">
