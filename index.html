@@ -10,7 +10,7 @@ layout: layout
 		{{ post.content | truncatewords: 50 | textilize }}
 		
 		<aside class="seemore">
-			<data itemprop="datePublished" value="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%d/%m/%Y" }}</data>, {{ post.categories | category_links }} | 
+			<time pubdate datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%d/%m/%Y" }}</time>, {{ post.categories | category_links }} | 
 			<a rel="nofollow" href="{{ post.url }}">Lire la suite &raquo;</a>
 		</aside>
 	
